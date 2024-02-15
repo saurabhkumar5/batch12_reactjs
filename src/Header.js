@@ -1,7 +1,8 @@
 
 import React from 'react'
-import './Header.css'
+import './Header.css';
 import img from './home.png'
+import img1 from './bmw.png'
 
 function Header() {
   return (
@@ -16,6 +17,7 @@ function Header() {
        </div>
 
        <img src={img}/>
+       <img src={img1}/>
 
 
     </div>
